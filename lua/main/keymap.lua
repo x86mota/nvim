@@ -15,3 +15,6 @@ keymap.set('n', '<leader>eo', function()
     end
     vim.cmd('echo ""')
 end, { desc = 'Open directory' })
+
+-- LazyGit
+keymap.set('n', '<leader>lg', '<cmd>LazyGit<CR>', { desc = 'LazyGit' })
